@@ -21,6 +21,13 @@ jobs:
       uses: actions/setup-dotnet@v2
       with:
         dotnet-version: 5.0.x
+    - uses: b3b00/coverlet-action@1.1.9
+      with:
+        testProject: 'PrimeService.Tests/PrimeService.Tests.csproj'
+        output: 'lcov.info'
+        outputFormat: 'lcov'
+        excludes: '[program]*,[test]test.*'
+        threshold: 90``
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
