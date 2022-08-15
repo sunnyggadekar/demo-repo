@@ -1,4 +1,4 @@
-name: .NET
+name: CI
 
 on:
   push:
@@ -20,8 +20,6 @@ jobs:
       uses: actions/setup-dotnet@v2
       with:
         dotnet-version: 5.0.x
-    - name: navigate to solution
-      run: cd  unit-testing-using-dotnet-test
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
