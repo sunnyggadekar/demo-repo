@@ -24,7 +24,7 @@ namespace Prime.UnitTests.Services
         [Theory]
         [InlineData(-1)]
         [InlineData(0)]
-        [InlineData(2)]
+        [InlineData(1)]
         public void IsPrime_ValuesLessThan2_ReturnFalse(int value)
         {
             var result = _primeService.IsPrime(value);
