@@ -8,6 +8,7 @@ on:
 
 jobs:
   build:
+    name: pull-request-ci
 
     runs-on: ubuntu-latest
     defaults:
