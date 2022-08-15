@@ -1,2 +1,2 @@
-# repositoryfromLenovo
-repo from lenovo to test CI CD
+# demo repo to try CI CD
+
