@@ -1,2 +1,1 @@
-# demo repo to try CI CD
-
+# demo repo to try ci-cd
