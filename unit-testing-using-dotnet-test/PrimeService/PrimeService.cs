@@ -4,7 +4,7 @@ namespace Prime.Services
 {
     public class PrimeService
     {
-        public bool IsPrime(int candidate)
+        public static bool IsPrime(int candidate)
         {
             if (candidate < 2)
             {
@@ -13,16 +13,10 @@ namespace Prime.Services
             throw new NotImplementedException("Not fully implemented.");
         }
 
-        public static void EmptyMethod1()
+        public static string Display(string input)
         {
-
+            return input;
         }
-
-        public async void EmptyMethod2()
-        {
-
-        }
-
 
     }
 }
