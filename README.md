@@ -1,1 +1,1 @@
-# demo repo to try ci-cd
+# Repo to try actions
