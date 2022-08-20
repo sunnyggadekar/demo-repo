@@ -1,4 +1,4 @@
-name: Soanrqube analysis
+name: Soanrqube Analysis
 on:
   push:
     branches:
