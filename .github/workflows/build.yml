@@ -1,4 +1,4 @@
-name: Soanrqube Analysis
+name: CI
 on:
   push:
     branches:
