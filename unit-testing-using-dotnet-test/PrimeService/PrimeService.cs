@@ -2,7 +2,7 @@
 
 namespace Prime.Services
 {
-    public static class PrimeService
+    public class PrimeService
     {
         public static bool IsPrime(int candidate)
         {
