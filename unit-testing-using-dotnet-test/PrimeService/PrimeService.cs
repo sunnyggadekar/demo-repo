@@ -30,5 +30,10 @@ namespace Prime.Services
             return combined;
         }
 
+        public static int GetNumber()
+        {
+            return 100;
+        }
+
     }
 }
