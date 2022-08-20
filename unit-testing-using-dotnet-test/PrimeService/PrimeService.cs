@@ -18,5 +18,12 @@ namespace Prime.Services
             return input;
         }
 
+        public static String SomeMethodWithOutTest()
+        {
+            var name = "test";
+            var address = "test";
+            return $" {name} {address}";
+        }
+
     }
 }
