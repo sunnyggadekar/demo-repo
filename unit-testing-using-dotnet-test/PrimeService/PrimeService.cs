@@ -4,6 +4,7 @@ namespace Prime.Services
 {
     public class PrimeService
     {
+        public int lowercaseproprty { get; set; }
         public bool IsPrime(int candidate)
         {
             if (candidate < 2)
@@ -11,6 +12,11 @@ namespace Prime.Services
                 return false;
             }
             throw new NotImplementedException("Not fully implemented.");
+        }
+
+        public void EmptyMethod()
+        {
+
         }
     }
 }
