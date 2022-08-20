@@ -31,5 +31,12 @@ namespace Prime.UnitTests.Services
             Assert.Equal(result, input);
         }
 
+        [Fact]
+        public void SomeMethodWithOutTest()
+        {
+            var result = PrimeService.SomeMethodWithOutTest("test", "test");
+            Assert.NotEmpty(result);
+        }
+
     }
 }

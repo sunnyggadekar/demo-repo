@@ -18,5 +18,22 @@ namespace Prime.Services
             return input;
         }
 
+        public static String SomeMethodWithOutTest(string name, string address)
+        {
+            var combined = name + address;
+            return combined;
+        }
+
+        public static String AnotherMethodWithDuplicateCode(string name, string address)
+        {
+            var combined = name + address;
+            return combined;
+        }
+
+        public static int GetNumber()
+        {
+            return 100;
+        }
+
     }
 }
