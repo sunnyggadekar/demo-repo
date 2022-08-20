@@ -13,5 +13,16 @@ namespace Prime.Services
             throw new NotImplementedException("Not fully implemented.");
         }
 
+        public static void EmptyMethod1()
+        {
+
+        }
+
+        public async void EmptyMethod2()
+        {
+
+        }
+
+
     }
 }
