@@ -13,3 +13,8 @@ jobs:
   build-push-images:
     environment: ${{ inputs.environment }}
     runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout the branch
+      uses: action/checkout@v3
+      
