@@ -1,4 +1,4 @@
-name: CI
+name: ci-build-test-scan
 on:
   push:
     branches:
