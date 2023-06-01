@@ -1,0 +1,10 @@
+name: push-images-repository
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'select-environment'
+        type: envoronemnt
+        required: true
+        
